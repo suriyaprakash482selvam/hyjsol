@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>HYJAJ</title>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylesabout.css">
+
+  <script src="https://kit.fontawesome.com/3ad3fc01e2.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<style>
+	body{
+	background-color: #050505;
+	
+	text-align: center;
+
+
+}
+.hyjaj{
+	padding: 3%;
+	color: #f09ae9;
+	font-family: 'Metal Mania', cursive;
+}
+.navbar-brand{
+	font-family: 'Metal Mania', cursive;
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #f09ae9;
+}
+.navbar{
+	padding-bottom: 2.5rem;
+
+}
+.nav-item{
+	padding: 0px 8px;
+}
+.nav-link{
+	font-size: 1.2rem;
+}
+
+   .a{
+        -webkit-border-radius: 60px;
+        border-radius: 15px;
+        border: none;
+      
+        cursor: pointer;
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        margin: 10px;
+        outline: none;
+        
+       
+      }
+      @keyframes glowing1 {
+        0% {
+          background-color: #fa26a0;
+          box-shadow: 0 0 5px #fa26a0;
+        }
+        50% {
+          background-color: #fa26a0;
+          box-shadow: 0 0 20px #fa26a0;
+        }
+        100% {
+          background-color: #fa26a0;
+          box-shadow: 0 0 5px #fa26a0;
+        }
+      }
+      .a {
+        animation: glowing1 1300ms infinite;
+      }
+
+
+.b{
+       -webkit-border-radius: 60px;
+        border-radius: 15px;
+        border: none;
+        
+        cursor: pointer;
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        margin: 10px;
+        outline: none;
+       } 
+       
+      
+      @keyframes glowing2 {
+        0% {
+          background-color: #cffffe;
+          box-shadow: 0 0 5px #cffffe;
+        }
+        50% {
+          background-color: #cffffe;
+          box-shadow: 0 0 20px #cffffe;
+        }
+        100% {
+          background-color: #cffffe;
+          box-shadow: 0 0 5px #cffffe;
+        }
+      }
+
+      .b {
+        animation: glowing2 1300ms infinite;
+      }
+
+
+.c{
+       -webkit-border-radius: 60px;
+        border-radius: 15px;
+        border: none;
+        
+        cursor: pointer;
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        margin: 10px;
+        outline: none;
+       } 
+       
+      
+      @keyframes glowing3 {
+        0% {
+          background-color: #00bcd4;
+          box-shadow: 0 0 5px #00bcd4;
+        }
+        50% {
+          background-color: #00bcd4;
+          box-shadow: 0 0 20px #00bcd4;
+        }
+        100% {
+          background-color: #00bcd4;
+          box-shadow: 0 0 5px #00bcd4;
+        }
+      }
+
+      .c {
+        animation: glowing3 1300ms infinite;
+      }
+
+.d{
+       -webkit-border-radius: 60px;
+        border-radius: 15px;
+        border: none;
+        
+        cursor: pointer;
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        margin: 10px;
+        outline: none;
+       } 
+       
+      
+      @keyframes glowing4 {
+        0% {
+          background-color: #ffe78f;
+          box-shadow: 0 0 5px #ffe78f;
+        }
+        50% {
+          background-color: #ffe78f;
+          box-shadow: 0 0 20px #ffe78f;
+        }
+        100% {
+          background-color: #ffe78f;
+          box-shadow: 0 0 5px #ffe78f;
+        }
+      }
+
+      .d {
+        animation: glowing4 1300ms infinite;
+      }
+.e{
+       -webkit-border-radius: 60px;
+        border-radius: 15px;
+        border: none;
+        
+        cursor: pointer;
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        margin: 10px;
+        outline: none;
+       } 
+       
+      
+      @keyframes glowing5 {
+        0% {
+          background-color: #6a2c70;
+          box-shadow: 0 0 5px #6a2c70;
+        }
+        50% {
+          background-color: #6a2c70;
+          box-shadow: 0 0 20px #6a2c70;
+        }
+        100% {
+          background-color: #6a2c70;
+          box-shadow: 0 0 5px #6a2c70;
+        }
+      }
+
+      .e {
+        animation: glowing5 1300ms infinite;
+      }
+.f{
+       -webkit-border-radius: 60px;
+        border-radius: 15px;
+        border: none;
+        
+        cursor: pointer;
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        margin: 10px;
+        outline: none;
+       } 
+       
+      
+      @keyframes glowing6 {
+        0% {
+          background-color: #ade498;
+          box-shadow: 0 0 5px #ade498;
+        }
+        50% {
+          background-color: #ade498;
+          box-shadow: 0 0 20px #ade498;
+        }
+        100% {
+          background-color: #ade498;
+          box-shadow: 0 0 5px #ade498;
+        }
+      }
+
+      .f {
+        animation: glowing6 1300ms infinite;
+      }
+.g{
+       -webkit-border-radius: 60px;
+        border-radius: 15px;
+        border: none;
+        
+        cursor: pointer;
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        margin: 10px;
+        outline: none;
+       } 
+       
+      
+      @keyframes glowing7 {
+        0% {
+          background-color: #feceab;
+          box-shadow: 0 0 5px #feceab;
+        }
+        50% {
+          background-color: #feceab;
+          box-shadow: 0 0 20px #feceab;
+        }
+        100% {
+          background-color: #feceab;
+          box-shadow: 0 0 5px #feceab;
+        }
+      }
+
+      .g {
+        animation: glowing7 1300ms infinite;
+      }
+.h{
+       -webkit-border-radius: 60px;
+        border-radius: 15px;
+        border: none;
+        
+        cursor: pointer;
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        margin: 10px;
+        outline: none;
+       } 
+       
+      
+      @keyframes glowing8 {
+        0% {
+          background-color: #5e6f64;
+          box-shadow: 0 0 5px #5e6f64;
+        }
+        50% {
+          background-color: #5e6f64;
+          box-shadow: 0 0 20px #5e6f64;
+        }
+        100% {
+          background-color: #5e6f64;
+          box-shadow: 0 0 5px #5e6f64;
+        }
+      }
+
+      .h {
+        animation: glowing8 1300ms infinite;
+      }
+.i{
+       -webkit-border-radius: 60px;
+        border-radius: 15px;
+        border: none;
+        
+        cursor: pointer;
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        margin: 10px;
+        outline: none;
+       } 
+       
+      
+      @keyframes glowing9 {
+        0% {
+          background-color: #f08a5d;
+          box-shadow: 0 0 5px #f08a5d;
+       }
+        50% {
+          background-color: #f08a5d;
+          box-shadow: 0 0 20px #f08a5d;
+        }
+        100% {
+          background-color: #f08a5d;
+          box-shadow: 0 0 5px #f08a5d;
+        }
+      }
+
+      .i {
+        animation: glowing9 1300ms infinite;
+      }
+
+ .j{
+       -webkit-border-radius: 60px;
+        border-radius: 15px;
+        border: none;
+        
+        cursor: pointer;
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        margin: 10px;
+        outline: none;
+       } 
+       
+      
+      @keyframes glowing10 {
+        0% {
+          background-color: #c4fb6d;
+          box-shadow: 0 0 5px #c4fb6d;
+        }
+        50% {
+          background-color: #c4fb6d;
+          box-shadow: 0 0 20px #c4fb6d;
+        }
+        100% {
+          background-color: #c4fb6d;
+          box-shadow: 0 0 5px #c4fb6d;
+        }
+      }
+
+      .j{
+        animation: glowing10 1300ms infinite;
+      }  
+.k{
+       -webkit-border-radius: 60px;
+        border-radius: 15px;
+        border: none;
+        
+        cursor: pointer;
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        margin: 10px;
+        outline: none;
+       } 
+       
+      
+      @keyframes glowing11 {
+        0% {
+          background-color: #d9adad;
+          box-shadow: 0 0 5px  #d9adad;
+        }
+        50% {
+          background-color:  #d9adad;
+          box-shadow: 0 0 20px  #d9adad;
+        }
+        100% {
+          background-color:  #d9adad;
+          box-shadow: 0 0 5px  #d9adad;
+        }
+      }
+
+      .k {
+        animation: glowing11 1300ms infinite;
+      } 
+ .l{
+       -webkit-border-radius: 60px;
+        border-radius: 15px;
+        border: none;
+        
+        cursor: pointer;
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        margin: 10px;
+        outline: none;
+       } 
+       
+      
+      @keyframes glowing12 {
+        0% {
+          background-color: #bbd196;
+          box-shadow: 0 0 5px #bbd196;
+        }
+        50% {
+          background-color: #bbd196;
+          box-shadow: 0 0 20px #bbd196;
+        }
+        100% {
+          background-color: #bbd196;
+          box-shadow: 0 0 5px #bbd196;
+        }
+      }
+
+      .l {
+        animation: glowing12 1300ms infinite;
+      }
+.m{
+       -webkit-border-radius: 60px;
+        border-radius: 15px;
+        border: none;
+        
+        cursor: pointer;
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        margin: 10px;
+        outline: none;
+       } 
+       
+      
+      @keyframes glowing13 {
+        0% {
+          background-color: #411f1f;
+          box-shadow: 0 0 5px  #411f1f;
+        }
+        50% {
+          background-color:  #411f1f;
+          box-shadow: 0 0 20px  #411f1f;
+        }
+        100% {
+          background-color:  #411f1f;
+          box-shadow: 0 0 5px  #411f1f;
+        }
+      }
+
+      .m {
+        animation: glowing13 1300ms infinite;
+      }  
+ .n{
+       -webkit-border-radius: 60px;
+        border-radius: 15px;
+        border: none;
+        
+        cursor: pointer;
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        margin: 10px;
+        outline: none;
+       } 
+       
+      
+      @keyframes glowing14 {
+        0% {
+          background-color: #ffc1fa;
+          box-shadow: 0 0 5px #ffc1fa;
+        }
+        50% {
+          background-color: #ffc1fa;
+          box-shadow: 0 0 20px #ffc1fa;
+        }
+        100% {
+          background-color: #ffc1fa;
+          box-shadow: 0 0 5px #ffc1fa;
+        }
+      }
+
+      .n {
+        animation: glowing14 1300ms infinite;
+      } 
+.o{
+       -webkit-border-radius: 60px;
+        border-radius: 15px;
+        border: none;
+        
+        cursor: pointer;
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        margin: 10px;
+        outline: none;
+       } 
+       
+      
+      @keyframes glowing15 {
+        0% {
+          background-color: #eebb4d;
+          box-shadow: 0 0 5px #eebb4d;
+        }
+        50% {
+          background-color: #eebb4d;
+          box-shadow: 0 0 20px #eebb4d;
+        }
+        100% {
+          background-color: #eebb4d;
+          box-shadow: 0 0 5px #eebb4d;
+        }
+      }
+
+      .o {
+        animation: glowing15 1300ms infinite;
+      } 
+ .p{
+       -webkit-border-radius: 60px;
+        border-radius: 15px;
+        border: none;
+        
+        cursor: pointer;
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        margin: 10px;
+        outline: none;
+       } 
+       
+      
+      @keyframes glowing16 {
+        0% {
+          background-color: #7fdbda;
+          box-shadow: 0 0 5px  #7fdbda;
+        }
+        50% {
+          background-color:  #7fdbda;
+          box-shadow: 0 0 20px  #7fdbda;
+        }
+        100% {
+          background-color: #7fdbda;
+          box-shadow: 0 0 5px #7fdbda;
+        }
+      }
+
+      .p {
+        animation: glowing16 1300ms infinite;
+      }                         
+#footer{
+	margin: 40px 20px 20px  20px;
+}
+</style>
+<body>
+
+  <div class = "top-container">
+  	<nav class="navbar navbar-expand-lg navbar-dark">
+  		<a class="navbar-brand" href="">H Y J A J</a>
+
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" area-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Togglenavigation">
+  		<span class="navbar-toggler-icon"></span>	
+  		</button>
+  		
+
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    	<ul class="navbar-nav ml-auto">
+    		<li class="new-item">
+    			<a class="nav-link" href="personelsite.html">About</a>
+    		</li>
+    	  
+
+    </div>
+    </nav>
+</div>
+<div class="middle-container">
+	<p class="hyjaj">High Your Joy And Josh</p>
+    <div id="SET1" class="sett1">
+    	<div class="row1">
+    		<button class="a btn"></button>
+    		<button class="b btn"></button>
+    		<button class="c btn"></button>
+    		<button class="d btn"></button>
+    	</div>
+    	<div class="row2">
+    		<button class="e btn"></button>
+    		<button class="f btn"></button>
+    		<button class="g btn"></button>
+    		<button class="h btn"></button>
+    	</div>	
+    	<div class="row3">
+    		<button class="i btn"></button>
+    		<button class="j btn"></button>
+    		<button class="k btn"></button>
+    		<button class="l btn"></button>
+    	</div>
+    	<div class="row4">
+    		<button class="m btn"></button>
+    		<button class="n btn"></button>
+    		<button class="o btn"></button>
+    		<button class="p btn"></button>
+    	</div>
+    </div>
+</div>
+<div class="bottom-container">
+ <footer id="footer">
+     <p>&copy; copyright 2020 RoyalPhoenix Softtech</p>
+
+  </footer>
+</div>
+<script src="hyjaj.js" charset="utf-8"></script>
+<script>
+	
+document.querySelectorAll("button")[0].addEventListener("click", handCli1);
+function handCli1() {
+    
+	var audio1 = new Audio("Music/EM1.wav");
+	audio1.play();
+}
+
+document.querySelectorAll("button")[1].addEventListener("click", handCli2);
+function handCli2() {
+    
+	var audio2 = new Audio("Music/EM2.wav");
+	audio2.play();
+}
+
+
+document.querySelectorAll("button")[2].addEventListener("click", handCli3);
+function handCli3() {
+    
+	var audio3 = new Audio("Music/EM3.wav");
+	audio3.play();
+}
+
+
+document.querySelectorAll("button")[3].addEventListener("click", handCli4);
+function handCli4() {
+    
+	var audio4 = new Audio("Music/EM4.wav");
+	audio4.play();
+}
+
+document.querySelectorAll("button")[4].addEventListener("click", handCli5);
+function handCli5() {
+    
+	var audio5 = new Audio("Music/EM5.wav");
+	audio5.play();
+}
+
+document.querySelectorAll("button")[5].addEventListener("click", handCli6);
+function handCli6() {
+    
+	var audio6 = new Audio("Music/EM6.wav");
+	audio6.play();
+}
+
+document.querySelectorAll("button")[6].addEventListener("click", handCli7);
+function handCli7() {
+    
+	var audio7 = new Audio("Music/EM7.wav");
+	audio7.play();
+}
+
+document.querySelectorAll("button")[7].addEventListener("click", handCli8);
+function handCli8() {
+    
+	var audio8 = new Audio("Music/EM8.wav");
+	audio8.play();
+}
+
+document.querySelectorAll("button")[8].addEventListener("click", handCli9);
+function handCli9() {
+    
+	var audio9 = new Audio("Music/EM9.wav");
+	audio9.play();
+}
+
+document.querySelectorAll("button")[9].addEventListener("click", handCli10);
+function handCli10() {
+    
+	var audio10 = new Audio("Music/EM10.wav");
+	audio10.play();
+}
+
+document.querySelectorAll("button")[10].addEventListener("click", handCli11);
+function handCli11() {
+    
+	var audio11 = new Audio("Music/EM11.wav");
+	audio11.play();
+}
+
+document.querySelectorAll("button")[11].addEventListener("click", handCli12);
+function handCli12() {
+    
+	var audio12 = new Audio("Music/EM12.wav");
+	audio12.play();
+}
+
+document.querySelectorAll("button")[12].addEventListener("click", handCli13);
+function handCli13() {
+    
+	var audio13 = new Audio("Music/EM13.wav");
+	audio13.play();
+}
+
+document.querySelectorAll("button")[13].addEventListener("click", handCli14);
+function handCli14() {
+    
+	var audio14 = new Audio("Music/EM14.wav");
+	audio14.play();
+
+
+}
+
+document.querySelectorAll("button")[14].addEventListener("click", handCli15);
+function handCli15() {
+    
+	var audio15 = new Audio("Music/EM15.wav");
+	audio15.play();
+}
+
+document.querySelectorAll("button")[15].addEventListener("click", handCli16);
+function handCli16() {
+    
+	var audio16 = new Audio("Music/EM16.wav");
+	audio16.play();
+}
+
+//keyboard event
+document.addEventListener("keypress", handCli17);
+function handCli17(event){
+    makeSound(event.key);
+   
+}
+function makeSound(key){
+	switch(key) {
+		case "a":
+		    var audiok1 = new Audio("Music/EM1.wav");
+		    audiok1.play();
+		break;
+		 
+
+		case "s":
+		    var audiok2 = new Audio("Music/EM2.wav");
+		    audiok2.play();
+		break;
+		
+		case "d":
+		    var audiok3 = new Audio("Music/EM3.wav");
+		    audiok3.play();
+		break; 
+
+		case "f":
+		    var audiok4 = new Audio("Music/EM4.wav");
+		    audiok4.play();
+		break; 
+
+		case "g":
+		    var audiok5 = new Audio("Music/EM5.wav");
+		    audiok5.play();
+		break;        
+
+		case "h":
+		    var audiok6 = new Audio("Music/EM6.wav");
+		    audiok6.play();
+		break; 
+
+		case "j":
+		    var audiok7 = new Audio("Music/EM7.wav");
+		    audiok7.play();
+		break;
+        
+        case "k":
+		    var audiok8 = new Audio("Music/EM8.wav");
+		    audiok8.play();
+		break;
+		 
+		case "l":
+		    var audiok9 = new Audio("Music/EM9.wav");
+		    audiok9.play();
+		break;
+		
+		case "z":
+		    var audiok10 = new Audio("Music/EM10.wav");
+		    audiok10.play();
+		break; 
+
+		case "x":
+		    var audiok11 = new Audio("Music/EM11.wav");
+		    audiok11.play();
+		break; 
+
+		case "c":
+		    var audiok12 = new Audio("Music/EM12.wav");
+		    audiok12.play();
+		break;        
+
+		case "v":
+	
+		    var audiok13 = new Audio("Music/EM13.wav");
+		    audiok13.play();
+		break;
+		 
+		case "b":
+		    var audiok14 = new Audio("Music/EM14.wav");
+		    audiok14.play();
+		break;
+		
+		case "n":
+		    var audiok15 = new Audio("Music/EM15.wav");
+		    audiok15.play();
+		break; 
+
+		case "m":
+		    var audiok16 = new Audio("Music/EM16.wav");
+		    audiok16.play();
+		break;
+
+		
+
+		
+		
+
+
+}
+}
+</script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+ 
